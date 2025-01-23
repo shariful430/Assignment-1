@@ -1,3 +1,4 @@
+ 
 .fira-sans-thin {
   font-family: "Fira Sans", serif;
   font-weight: 100;
@@ -113,14 +114,29 @@
 .dark-1{
   color: rgba(14, 14, 14, 1);
 }
+.dark-2{
+  color: rgba(14, 14, 14, 0.7);
+}
+.dark-3{
+  color: rgba(14, 14, 14, 0.8);
+}
+.dark-4{
+  color: rgba(14, 14, 14, 0.6);
+}
 .btn-bg{
   background-color: rgba(0, 106, 80, 1);
+}
+.clr-1{
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 8px;
+  padding: 11px 20px;
 }
 
 /* banner styles */
 .header{
   background-color: rgba(198, 228, 214, 1);
-  margin: 181px 160px 80px 160px;
+  margin: 81px 160px 80px 160px;
   border-radius: 24px;
   max-width: 1280px;
   max-height: 560px;
@@ -134,6 +150,14 @@
   max-width: 622px;
   max-height: 326px;
   padding: 117px 64px 117px 59.99px;
+ 
+}
+#banner-image{
+  width: 474px;
+  height: 400px;
+  margin-top: 80px;
+  margin-right: 60px;
+
 }
 .banner-country{
   font-size: 24px;
@@ -158,12 +182,82 @@
   padding: 17px 34px;
   border: none;
   border-radius: 8px;
-  /* max-width: 202px; */
-  /* max-height: 22px; */
 }
-/* .btn-container{
-  max-width: 270px;
-  max-height: 56px;
-  justify-content: center;
-  align-items: center;
-} */
+/* main styles */
+main{
+  max-width: 1280px;
+  margin: 80px 160px;
+}
+/* The Vision of Future section styles */
+
+.section-title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  max-height: 48px;
+}
+.section-description{
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  max-height: 48px;
+  margin-bottom: 32px;
+}
+.vision-container{
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-items: center;s */
+}
+.first-vision{
+  background-color: rgba(84, 144, 245, 0.2);
+  padding: 32px 32px;
+  border-radius: 16px;
+  max-width: 410.67px;
+  max-height: 325px;
+  margin-top: 32px;
+  margin-right: 24px;
+  margin-bottom: 32px;
+}
+.second-vision{
+  background-color: rgba(198, 228, 214, 1);
+  padding: 32px 32px;
+  border-radius: 16px;
+  margin-top: 32px;
+  margin-right: 24px;
+  margin-bottom: 32px;
+  max-width: 410.67px;
+  max-height: 325px;
+
+}
+.third-vision{
+  background-color: rgba(247, 235, 207, 1);
+  padding: 24px 24px;
+  border-radius: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  max-width: 410.67px;
+  max-height: 325px;
+}
+
+.chief-adviser{
+  background-image: url("../images/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position-y:30px;
+  background-position-x: 25px;
+  background-color:#f1f9f1;
+  padding: 48px 24px;
+  border-radius: 16px;
+  opacity: 100%;
+}
+/* button styles */
+.btn-1{
+  background-color: rgba(84, 144, 245, 1);
+}
+
+.btn-2{
+  background-color: rgba(9, 161, 92, 1);
+}
+
+.btn-3{
+  background-color: rgba(255, 194, 57, 1);
+}
