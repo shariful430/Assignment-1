@@ -1,4 +1,4 @@
- 
+
 .fira-sans-thin {
   font-family: "Fira Sans", serif;
   font-weight: 100;
@@ -109,7 +109,6 @@
 
 
 
-
 /* shared style */
 .dark-1{
   color: rgba(14, 14, 14, 1);
@@ -131,6 +130,13 @@
   border: none;
   border-radius: 8px;
   padding: 11px 20px;
+}
+.card-btn{
+  background-color: rgba(0, 106, 80, 1);
+  border: none;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  padding: 13px 26px;
 }
 
 /* banner styles */
@@ -244,7 +250,7 @@ main{
   background-repeat: no-repeat;
   background-position-y:30px;
   background-position-x: 25px;
-  background-color:#f1f9f1;
+  background-color:#f7f9f1;
   padding: 48px 24px;
   border-radius: 16px;
   opacity: 100%;
@@ -260,4 +266,49 @@ main{
 
 .btn-3{
   background-color: rgba(255, 194, 57, 1);
+}
+
+/* news section styles */
+.card-primary{
+  display: flex;
+  background-color:rgb(232, 235, 216);
+  margin-top: 32px;
+  border-radius: 24px;
+}
+.news-title{
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.news-description{
+  margin-top: 24px;
+} 
+.card-image-primary{
+  padding: 48px 32px 48px 48px;
+}
+.first-image{
+  border-radius: 24px;
+}
+.card-container{
+  padding: 56px 48px 56px 0px;
+}
+.card-title{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.card-secondary{
+  display: flex;
+  background-color: rgb(232, 235, 216);
+  margin-top: 24px;
+  border-radius: 24px;
+}
+.card-container-secondary{
+  margin: 56px 32px 56px 48px;
+}
+.card-image-secondary{
+  padding: 48px 48px 48px 0px;
+}
+.second-image{
+  border-radius: 24px;
 }
