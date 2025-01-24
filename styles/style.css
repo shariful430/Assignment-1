@@ -139,7 +139,8 @@
   padding: 13px 26px;
 }
 .btn:hover{
-  color: blue;
+  color: rgb(236, 224, 117);
+  background-color: rgb(45, 14, 14);
 }
 
 /* banner styles */
@@ -382,5 +383,49 @@ main{
 .donation-btn{
   margin-top: 32px;
   margin-left: 530px;
- 
+}
+/* newsletter section styles */
+.newsletter{
+  background-color: rgba(198, 228, 214, 1);
+  max-width: 1280px;
+  max-height: 395px;
+  margin: 80px 160px 80px 160px;
+  padding: 80px 265px;
+  border-radius: 24px;
+}
+.newsletter-title{
+  font-style: 40px;
+  font-weight: bold;
+  text-align: center; 
+}
+.newsletter-description{
+ width: 622px;
+ height: 48px;
+ text-align: center;
+ margin-bottom: 24px;
+}
+.hero{
+  min-width: 600px;
+  min-height: 55px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  padding-left: 40px;
+  margin-bottom: ;
+}
+.mixed{
+  display:flex;
+  align-items: center;
+  gap: 0px;
+}
+.Subscribe-btn{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  padding: 17px 34px;
+  border: none;
+  height: 56px;
+  border-radius: 0px 8px 8px 0px ;
+}
+.end{
+  text-align: center;
 }
